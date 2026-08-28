@@ -163,12 +163,3 @@ Runs on `http://localhost:3000` and proxies API calls to the backend.
 - Put the backend behind HTTPS in production — `secure: true` cookies require it.
 
 ---
-
-## 9. Resume-Ready Summary
-
-This matches the bullet points as implemented:
-- ✅ 20+ optimized RESTful APIs (indexed queries, pagination, text search)
-- ✅ JWT auth + RBAC (customer/seller/admin roles enforced server-side)
-- ✅ Braintree payment integration (Drop-in UI + server-side nonce settlement)
-- ✅ Custom hooks (`useAuth`, `useCart`, `useFetch`, `useDebounce`) + componentization
-- ✅ Chart.js analytics dashboard (revenue trend, order status, top products) via MongoDB aggregation + Axios
